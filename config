@@ -1,0 +1,82 @@
+{
+  "layer": "top",
+  "position": "top",
+  "margin": "10, 10, 0, 10",
+  
+  "modules-left": ["custom/left-arrow-dark","hyprland/workspaces", "custom/left-arrow-light", "hyprland/window", "custom/right-arrow-light", "pulseaudio", "custom/right-arrow-dark"],
+  "modules-center": ["custom/left-arrow-dark","clock", "custom/right-arrow-dark"],
+  "modules-right": ["custom/left-arrow-light-spotify", "mpris", "custom/right-arrow-light-spotify", "clock#date", "custom/right-arrow-light", "cpu", "memory", "network","custom/right-arrow-dark"],
+
+  "hyprland/workspaces": {
+    "disable-scroll": false,   
+    "all-outputs": true,      
+    "persistent-workspaces": { 
+      "1": [], "2": [], "3": [], "4": [], "5": [], "6": []
+    },
+    "format": "{icon}",        
+
+	"format-icons": {
+        "1": "",    
+        "2": "",   
+        "3": "",  
+		"4": "",    
+        "5": "",
+        "6": "󰡶",
+        "7": "",
+        "8": "",
+        "9": "",
+        "10": ""
+    }
+  },
+
+	"custom/left-arrow-dark": {
+		"format": "",
+		"tooltip": false
+	},
+	"custom/left-arrow-light": {
+		"format": "",
+		"tooltip": false
+	},
+	"custom/right-arrow-dark": {
+		"format": "",
+		"tooltip": false
+	},
+	"custom/right-arrow-light": {
+		"format": "",
+		"tooltip": false
+	},
+	"custom/left-arrow-light-spotify": {
+		"format": "",
+		"tooltip": false
+	},
+	"custom/right-arrow-light-spotify": {
+		"format": "",
+		"tooltip": false
+	},
+
+
+  "hyprland/window": {
+	  "format": "{}",
+	  "max-length": 40,
+	  "seperate-outputs": true
+  },
+
+  "mpris": {
+	  "format": "{player_icon} {artist} - {title}",
+	  "player-icons": {
+		  "spotify": "",
+		  "default": ""
+	  }
+  },
+
+  "clock": { "format": "{:%H:%M}" },
+
+  "clock#date": { "format": "{:%A %b %d}" },
+
+  "cpu": { "format": " {usage}%"},
+
+  "memory": {"format": " {}%"},
+
+  "pulseaudio": {"format": "󰖀 {volume}%"}
+}
+

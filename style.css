@@ -1,0 +1,95 @@
+* {
+    font-family: "JetBrainsMono Nerd Font", monospace;
+	color: #eceff4;
+}
+
+window#waybar {
+    background: transparent;
+}
+
+#custom-right-arrow-dark,
+#custom-left-arrow-dark {
+	color: rgba(46, 52, 54, 0.8);
+	font-size: 30px;
+}
+#custom-right-arrow-light,
+#custom-left-arrow-light {
+	background: rgba(46, 52, 54, 0.8);
+	color: rgb(46, 58, 73);
+	font-size: 30px;
+}
+#custom-left-arrow-light-spotify {
+	background: transparent;
+	color: #60A971; 
+	font-size: 30px;
+}
+#custom-right-arrow-light-spotify {
+	background: rgb(46, 58, 73);
+	color: #60A971; 
+	font-size: 30px;
+}
+
+#clock.date {
+	background: rgb(46, 58, 73);
+}
+
+#clock {
+    padding: 0 10px;
+	font-size: 18px;
+	background: rgba(46, 52, 54, 0.8);
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#cpu {
+    padding: 0 10px;
+	font-size: 18px;
+	background: rgba(46, 52, 54, 0.8);
+}
+
+#memory {
+    padding: 0 10px;
+	font-size: 18px;
+	background: rgba(46, 52, 54, 0.8);
+}
+
+#pulseaudio {
+	padding: 0 10px;
+	font-size: 18px;
+	background: rgba(46, 52, 54, 0.8);
+}
+
+#network {
+	background: rgba(46, 52, 54, 0.8);
+    padding: 0 10px;
+	font-size: 18px;
+}
+
+#workspaces {
+  background:   rgba(46, 52, 54, 0.8);
+}
+
+#workspaces button {
+	color: #eceff4;
+	font-size: 22px;
+    padding: 0 12px;
+    margin-bottom: 2px;
+	border-radius: 0px;
+}
+
+#workspaces button.active {
+	border-bottom: 2px solid #d8dee9;
+}
+
+
+#window {
+	font-size: 18px;
+	background: rgb(46, 58, 73);
+
+}
+
+#mpris {
+	font-size: 18px;
+	background: #60A971;
+	color: black;
+}
