@@ -1,95 +1,82 @@
 * {
     font-family: "JetBrainsMono Nerd Font", monospace;
-	color: #eceff4;
 }
 
 window#waybar {
-    background: transparent;
+    background: rgba(46, 52, 54, 0.8);
 }
 
-#custom-right-arrow-dark,
-#custom-left-arrow-dark {
-	color: rgba(46, 52, 54, 0.8);
-	font-size: 30px;
-}
-#custom-right-arrow-light,
-#custom-left-arrow-light {
-	background: rgba(46, 52, 54, 0.8);
-	color: rgb(46, 58, 73);
-	font-size: 30px;
-}
-#custom-left-arrow-light-spotify {
-	background: transparent;
-	color: #60A971; 
-	font-size: 30px;
-}
-#custom-right-arrow-light-spotify {
-	background: rgb(46, 58, 73);
-	color: #60A971; 
-	font-size: 30px;
+#custom-separator {
+	color: #eceff4;
+	font-size: 15px;
 }
 
 #clock.date {
-	background: rgb(46, 58, 73);
+	color: #eceff4;
 }
 
 #clock {
     padding: 0 10px;
-	font-size: 18px;
-	background: rgba(46, 52, 54, 0.8);
+	font-size: 15px;
   padding-left: 15px;
   padding-right: 15px;
+	color: #eceff4;
 }
 
 #cpu {
+	color: #eceff4;
     padding: 0 10px;
-	font-size: 18px;
-	background: rgba(46, 52, 54, 0.8);
+	font-size: 15px;
 }
 
 #memory {
+	color: #eceff4;
     padding: 0 10px;
-	font-size: 18px;
-	background: rgba(46, 52, 54, 0.8);
+	font-size: 15px;
 }
 
 #pulseaudio {
+	color: #eceff4;
 	padding: 0 10px;
-	font-size: 18px;
-	background: rgba(46, 52, 54, 0.8);
+	font-size: 15px;
 }
 
 #network {
-	background: rgba(46, 52, 54, 0.8);
+	color: #eceff4;
     padding: 0 10px;
-	font-size: 18px;
+	font-size: 15px;
 }
 
 #workspaces {
-  background:   rgba(46, 52, 54, 0.8);
 }
 
 #workspaces button {
 	color: #eceff4;
-	font-size: 22px;
-    padding: 0 12px;
+	font-size: 15px;
+    padding: 0 5px;
     margin-bottom: 2px;
 	border-radius: 0px;
 }
 
 #workspaces button.active {
+	border-radius: 5px;
 	border-bottom: 2px solid #d8dee9;
 }
 
+#workspaces button.hidden {
+	color: cyan;
+
+}
+
+
 
 #window {
-	font-size: 18px;
-	background: rgb(46, 58, 73);
+	color: #eceff4;
+	font-size: 15px;
 
 }
 
 #mpris {
-	font-size: 18px;
-	background: #60A971;
-	color: black;
+	color: #eceff4;
+	font-size: 15px;
 }
