@@ -3,51 +3,55 @@
 }
 
 window#waybar {
-    background: rgba(46, 52, 54, 0.8);
+	background: #3b4252;
 }
 
-#custom-separator {
-	color: #eceff4;
-	font-size: 15px;
+#custom-separatorLeft, #custom-separatorRight {
+	font-size: 20px;
 }
 
 #clock.date {
 	color: #eceff4;
+    background: rgb(46, 52, 54);
 }
 
 #clock {
     padding: 0 10px;
+	color: #eceff4;
 	font-size: 15px;
   padding-left: 15px;
   padding-right: 15px;
-	color: #eceff4;
 }
 
 #cpu {
 	color: #eceff4;
     padding: 0 10px;
 	font-size: 15px;
+    background: rgb(46, 52, 54);
 }
 
 #memory {
 	color: #eceff4;
     padding: 0 10px;
 	font-size: 15px;
+    background: rgb(46, 52, 54);
 }
 
 #pulseaudio {
-	color: #eceff4;
 	padding: 0 10px;
 	font-size: 15px;
+	color: #eceff4;
 }
 
 #network {
 	color: #eceff4;
     padding: 0 10px;
+    background: rgb(46, 52, 54);
 	font-size: 15px;
 }
 
 #workspaces {
+    background: rgb(46, 52, 54);
 }
 
 #workspaces button {
@@ -71,12 +75,14 @@ window#waybar {
 
 
 #window {
-	color: #eceff4;
+	background: #3b4252;
 	font-size: 15px;
+	color: #eceff4;
 
 }
 
 #mpris {
 	color: #eceff4;
+	background: #3b4252;
 	font-size: 15px;
 }

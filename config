@@ -2,9 +2,9 @@
   "layer": "top",
   "position": "top",
   
-  "modules-left": ["hyprland/workspaces", "custom/separator", "hyprland/window", "pulseaudio"],
+  "modules-left": ["hyprland/workspaces", "custom/separatorRight", "hyprland/window", "pulseaudio"],
   "modules-center": ["clock"],
-  "modules-right": ["mpris", "clock#date", "cpu", "memory", "network"],
+  "modules-right": ["mpris", "custom/separatorLeft", "clock#date", "cpu", "memory", "network"],
 
   "hyprland/workspaces": {
     "disable-scroll": false,   
@@ -14,10 +14,16 @@
     }
   },
 
-  "custom/separator": {
-	  "format": " ✶ ",
+  "custom/separatorLeft": {
+	  "format": " ", 
 	  "tooltip": false
   },
+
+  "custom/separatorRight": {
+	  "format": " ", 
+	  "tooltip": false
+  },
+
 
   "hyprland/window": {
 	  "format": "{}",
