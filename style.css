@@ -3,7 +3,7 @@
 }
 
 window#waybar {
-	background: rgba(0, 0, 0, 0.2);
+	background: transparent; 
 }
 
 #custom-separatorLeft, #custom-separatorRight {
@@ -12,58 +12,79 @@ window#waybar {
 
 #clock.date {
 	color: #eceff4;
-    background: rgb(46, 52, 54);
+    background: #EEEEEE;
 }
 
 #clock {
-    padding: 0 10px;
-	font-size: 15px;
-  padding-left: 15px;
-  padding-right: 15px;
+
+    background: #EEEEEE;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+	color: #0D47A1;
+	font-size: 14px;
+  padding-left: 20px;
+  padding-right: 10px;
 }
 
 #cpu {
 	color: #eceff4;
     padding: 0 10px;
-	font-size: 15px;
-    background: rgb(46, 52, 54);
+	font-size: 14px;
+    background: #EEEEEE;
 }
 
 #memory {
 	color: #eceff4;
     padding: 0 10px;
-	font-size: 15px;
-    background: rgb(46, 52, 54);
+	font-size: 14px;
+    background: #EEEEEE;
 }
 
 #pulseaudio {
-	padding: 0 10px;
-	font-size: 15px;
+    background: #EEEEEE;
+	color: #FFAB00;
+	padding-right: 10px;
+	font-size: 14px;
 }
 
 #network {
 	color: #eceff4;
     padding: 0 10px;
-    background: rgb(46, 52, 54);
-	font-size: 15px;
+    background: #EEEEEE;
+	font-size: 14px;
 }
 
 #workspaces {
-    background: rgb(46, 52, 54);
+	padding: 10px;
+    background: #EEEEEE; 
+
 }
 
 #workspaces button {
-	color: #eceff4;
-	font-size: 15px;
+	color: #311B92;
+	transition: padding 0.2s;
+	font-size: 14px;
+	font-weight: 600;
     padding: 0 5px;
     margin-bottom: 2px;
 	border-radius: 0px;
 }
 
 #workspaces button.active {
-	border-radius: 5px;
-	border-bottom: 2px solid #d8dee9;
+
+	color: black;
+	border-radius: 60px;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-size: 16px;
+	font-weight: 900;
+	background: linear-gradient(
+  	135deg,
+  	 #B2EBF2 0%,
+  	#FFAB91 100%
+);
 }
+
 
 #workspaces button.hidden {
 	color: cyan;
@@ -73,9 +94,20 @@ window#waybar {
 
 
 #window {
-	font-size: 15px;
+	color: #1B5E20;
+	font-size: 14px;
+    background: #EEEEEE;
+    padding-right: 10px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding-right: 20px;
 }
 
 #mpris {
-	font-size: 15px;
+    background: #EEEEEE;
+    padding-right: 10px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+	color: #eceff4;
+	font-size: 14px;
 }
