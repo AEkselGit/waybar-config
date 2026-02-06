@@ -3,7 +3,7 @@
   "position": "top",
   "margin-top": 10,
   
-  "modules-center": [ "clock",  "hyprland/workspaces", "pulseaudio", "hyprland/window"],
+  "modules-center": [ "clock#date", "clock",  "hyprland/workspaces", "pulseaudio", "hyprland/window"],
 
   "hyprland/workspaces": {
     "disable-scroll": false,   

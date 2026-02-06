@@ -11,19 +11,20 @@ window#waybar {
 }
 
 #clock.date {
-	color: #eceff4;
+  padding-left: 20px;
+	color: #0D47A1;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
     background: #EEEEEE;
+  padding-left: 20px;
+  padding-right: 10px;
 }
 
 #clock {
 
     background: #EEEEEE;
-    border-top-left-radius: 30px;
-    border-bottom-left-radius: 30px;
 	color: #0D47A1;
 	font-size: 14px;
-  padding-left: 20px;
-  padding-right: 10px;
 }
 
 #cpu {
@@ -42,7 +43,7 @@ window#waybar {
 
 #pulseaudio {
     background: #EEEEEE;
-	color: #FFAB00;
+	color: #FF6D00;
 	padding-right: 10px;
 	font-size: 14px;
 }
