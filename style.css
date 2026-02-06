@@ -1,13 +1,13 @@
 * {
-    font-family: "JetBrainsMono Nerd Font", monospace;
+    font-family: "Cascadia Code", monospace;
 }
 
 window#waybar {
-	background: transparent;
+	background: rgba(0, 0, 0, 0.2);
 }
 
 #custom-separatorLeft, #custom-separatorRight {
-	font-size: 20px;
+	font-size: 25px;
 }
 
 #clock.date {
@@ -20,7 +20,6 @@ window#waybar {
 	font-size: 15px;
   padding-left: 15px;
   padding-right: 15px;
-	color: #eceff4;
 }
 
 #cpu {
@@ -40,7 +39,6 @@ window#waybar {
 #pulseaudio {
 	padding: 0 10px;
 	font-size: 15px;
-	color: #eceff4;
 }
 
 #network {
@@ -76,11 +74,8 @@ window#waybar {
 
 #window {
 	font-size: 15px;
-	color: #eceff4;
-
 }
 
 #mpris {
 	font-size: 15px;
-	color: #eceff4;
 }
