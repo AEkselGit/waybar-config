@@ -12,38 +12,38 @@ window#waybar {
 
 #clock.date {
   padding-left: 20px;
-	color: #0D47A1;
+	color: #B2DFDB;
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
-    background: #EEEEEE;
+    background: #212121;
   padding-left: 20px;
   padding-right: 10px;
 }
 
 #clock {
 
-    background: #EEEEEE;
-	color: #0D47A1;
+    background: #212121;
+	color: #B2DFDB;
 	font-size: 14px;
 }
 
 #cpu {
-	color: #eceff4;
+	color: #B2DFDB;
     padding: 0 10px;
 	font-size: 14px;
-    background: #EEEEEE;
+    background: #212121;
 }
 
 #memory {
 	color: #eceff4;
     padding: 0 10px;
 	font-size: 14px;
-    background: #EEEEEE;
+    background: #212121;
 }
 
 #pulseaudio {
-    background: #EEEEEE;
-	color: #FF6D00;
+    background: #212121;
+	color: #FFFF8D;
 	padding-right: 10px;
 	font-size: 14px;
 }
@@ -51,18 +51,18 @@ window#waybar {
 #network {
 	color: #eceff4;
     padding: 0 10px;
-    background: #EEEEEE;
+    background: #212121;
 	font-size: 14px;
 }
 
 #workspaces {
 	padding: 10px;
-    background: #EEEEEE; 
+    background: #212121; 
 
 }
 
 #workspaces button {
-	color: #311B92;
+	color: #80D8FF;
 	transition: padding 0.2s;
 	font-size: 14px;
 	font-weight: 600;
@@ -95,9 +95,9 @@ window#waybar {
 
 
 #window {
-	color: #1B5E20;
+	color: #00E676;
 	font-size: 14px;
-    background: #EEEEEE;
+    background: #212121;
     padding-right: 10px;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
@@ -105,7 +105,7 @@ window#waybar {
 }
 
 #mpris {
-    background: #EEEEEE;
+    background: #212121;
     padding-right: 10px;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
