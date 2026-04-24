@@ -1,7 +1,6 @@
 {
   "layer": "top",
   "position": "top",
-  "margin-top": 10,
   
   "modules-center": [ "clock#date", "clock",  "hyprland/workspaces", "pulseaudio", "hyprland/window"],
 
